@@ -1,0 +1,2 @@
+x_col,y_col,n_obs,pearson_r,pearson_p,spearman_rho,spearman_p,r_squared,slope,intercept
+DebtToIncomeRatio_capped,BorrowerRate,105383,0.1736,0.0,0.1624,0.0,0.0301,0.088948,0.16887

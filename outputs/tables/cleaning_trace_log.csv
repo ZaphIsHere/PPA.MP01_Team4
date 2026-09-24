@@ -1,0 +1,7 @@
+﻿step,rows_before,rows_after,note
+00_load,113937,113937,Load gốc: 113937 dòng x 81 cột
+01_duplicates,113937,113937,Số dòng trùng lặp hoàn toàn: 0 (không xóa)
+02_unify_rating,113937,113937,"Tạo UnifiedRating + RatingPeriod. Pre-2009: 28953, Post-2009: 84853, Unknown (cả 2 đều thiếu): 131"
+03_outlier_flag,113937,113937,"StatedMonthlyIncome: cap tại P99=20526.67, 1140 dòng bị đánh dấu outlier. DebtToIncomeRatio: cap tại P99=0.8600, 1047 dòng bị đánh dấu outlier."
+04_risk_flag,113937,113937,Đánh dấu IsRiskyLoan (Chargedoff/Defaulted): 17010 dòng
+05_income_ordinal,113937,113937,Map IncomeRange -> IncomeRange_ordinal. Giá trị không map được (ngoài NaN gốc): 7741

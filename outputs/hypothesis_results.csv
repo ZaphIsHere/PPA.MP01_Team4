@@ -1,0 +1,4 @@
+hypothesis,description,n_sample,n_excluded,is_monotonic,overall_spread_pct,decision,table,rate_zero_pct,rate_100k_plus_pct,disparity_pct,pearson_r,pearson_p,spearman_rho,r_squared
+H1,BorrowerRate tăng đơn điệu từ AA đến HR,84853,29084,True,23.82,ACCEPTED,outputs/tables/h1_summary_table.csv,,,,,,,
+H2,Thu nhập thấp có tỷ lệ nợ xấu cao hơn thu nhập cao,113937,0,,,ACCEPTED,outputs/tables/h2_summary_table.csv,38.0,7.44,30.56,,,,
+H3,DebtToIncomeRatio tương quan dương với BorrowerRate,105383,8554,,,ACCEPTED,outputs/tables/h3_correlation_table.csv,,,,0.1736,0.0,0.1624,0.0301
