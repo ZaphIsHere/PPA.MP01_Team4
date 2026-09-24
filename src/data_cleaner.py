@@ -4,8 +4,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 INPUT_PATH = ROOT / "data" / "raw" / "data.csv"
-OUTPUT_PATH = ROOT / "data" / "data_clean.csv"
-TRACE_PATH = ROOT / "data" / "processed" / "cleaning_trace_log.csv"
+OUTPUT_PATH = ROOT / "data" / "processed" / "data_clean.csv"
+TRACE_PATH = ROOT / "outputs" / "tables" / "cleaning_trace_log.csv"
 
 trace = []  # data-quality trace log: (bước, số dòng trước, số dòng sau, ghi chú)
 

@@ -21,7 +21,7 @@ from scipy import stats
 # CẤU HÌNH ĐƯỜNG DẪN
 # =====================================================================
 ROOT = Path(__file__).resolve().parent.parent
-RAW_DATA_PATH = ROOT / "data" / "data_clean.csv"
+RAW_DATA_PATH = ROOT / "data" / "processed" / "data_clean.csv"
 TABLES_DIR = ROOT / "outputs" / "tables"
 RESULTS_PATH = ROOT / "outputs" / "hypothesis_results.csv"
 

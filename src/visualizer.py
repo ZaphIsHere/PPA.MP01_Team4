@@ -23,7 +23,7 @@ from scipy import stats
 # CẤU HÌNH ĐƯỜNG DẪN
 # =====================================================================
 ROOT = Path(__file__).resolve().parent.parent
-DATA_PATH = ROOT / "data" / "data_clean.csv"
+DATA_PATH = ROOT / "data" / "processed" / "data_clean.csv"
 FIGURES_DIR = ROOT / "outputs" / "figures"
 
 # Thứ tự rủi ro tăng dần (AA -> HR)
